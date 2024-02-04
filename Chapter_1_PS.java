@@ -1,4 +1,4 @@
-//* Practice Set fof Chapter-1 of Java
+//* Practice Set of Chapter-1 of Java
 
 import java.util.Scanner; //? This for reading input from the user
 
