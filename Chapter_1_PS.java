@@ -1,6 +1,6 @@
 //* Practice Set of Chapter-1 of Java
 
-import java.util.Scanner; //? This for reading input from the user
+import java.util.Scanner;   
 
 public class Chapter_1_PS {
     public static void main(String[] args) {
