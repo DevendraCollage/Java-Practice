@@ -22,14 +22,12 @@ public class Exercise_2 {
         do {
             System.out.print("Enter Your Choice Here From The Above or enter exit to exit from this : ");
             int userChoice = sc.nextInt();
-            if (computerRandomNumber == 0 && userChoice == 1) {
-                System.out.println("\nCongratulations! You Win!");
-            } else if (computerRandomNumber == 1 && userChoice == 2) {
-                System.out.println("\nCongratulations! You Win!");
-            } else if (computerRandomNumber == 2 && userChoice == 3) {
+            if (computerRandomNumber == 0 && userChoice == 1 || computerRandomNumber == 1 && userChoice == 2
+                    || computerRandomNumber == 2 && userChoice == 3) {
                 System.out.println("\nCongratulations! You Win!");
             } else if (computerRandomNumber == 0 && userChoice == 2) {
                 System.out.println("\nComputer Wins This Time.");
+                System.out.println("The computer choice is : " + computerRandomNumber); // * This will print computer choice
             } else if (userChoice == computerRandomNumber) {
                 System.out.println("\nIt's a Draw!");
             } else {
