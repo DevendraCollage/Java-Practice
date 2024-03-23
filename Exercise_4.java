@@ -76,6 +76,7 @@ public class Exercise_4 {
             System.out.println("2. Issue-Book");
             System.out.println("3. Return-Book");
             System.out.println("4. Show Available Book");
+            System.out.println("5. Exit");
             System.out.print("Enter Your Choice From the Above : ");
             choice = sc.nextInt();
             sc.nextLine();
@@ -112,10 +113,14 @@ public class Exercise_4 {
                     System.out.println();
                     break;
 
+                case 5:
+                    // ? Exit from the program
+                    return;
+
                 default:
                     System.out.println("Enter the valid choice!");
                     break;
             }
-        } while (choice != 3);
+        } while (choice != 5);
     }
 }
